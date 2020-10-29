@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Data/DevIO.Data.csproj": {}
+  },
+  "projects": {
+    "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Business/DevIO.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Business/DevIO.Business.csproj",
+        "projectName": "DevIO.Business",
+        "projectPath": "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Business/DevIO.Business.csproj",
+        "packagesPath": "/home/wilerson/.nuget/packages/",
+        "outputPath": "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wilerson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Data/DevIO.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Data/DevIO.Data.csproj",
+        "projectName": "DevIO.Data",
+        "projectPath": "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Data/DevIO.Data.csproj",
+        "packagesPath": "/home/wilerson/.nuget/packages/",
+        "outputPath": "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wilerson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Business/DevIO.Business.csproj": {
+                "projectPath": "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Business/DevIO.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

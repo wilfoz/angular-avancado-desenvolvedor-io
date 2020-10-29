@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/YBJSaCV0fi2WEla847n8NE/gFIWNKreCecKP1/eEjwKs7n5l22E87SBx8RiF/EEJDQXZwn0SEp76SJz8iEyOw==",
+  "success": true,
+  "projectFilePath": "/home/wilerson/Developer/ANGULAR/DESENVOLVEDOR-IO/projeto-final/back-end/src/DevIO.Business/DevIO.Business.csproj",
+  "expectedPackageFiles": [
+    "/home/wilerson/.nuget/packages/fluentvalidation/8.6.2/fluentvalidation.8.6.2.nupkg.sha512",
+    "/home/wilerson/.nuget/packages/system.componentmodel.annotations/4.4.1/system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
